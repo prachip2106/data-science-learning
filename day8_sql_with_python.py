@@ -7,6 +7,11 @@ conn = mysql.connector.connect(
     database="analytics_lab"
 )
 query="select * from sales"
-df=pd.read_sql(query, conn)
-print(df)
+
+df=pd.read_sql(query,conn)
+
+print(df.head())
+print(df.groupby('REGION')['REVENUE'].sum())
+print(df.groupby('PRODUCT')['REVENUE'].sum())
+print("Total Revenue :",df['REVENUE'].sum())
 conn.close()

@@ -1,87 +1,103 @@
-# Data Science Learning Portfolio
+# Data Analysis with SQL & Python
 
-This repository contains my hands-on learning projects and practice scripts created using VS Code and executed through the VS Code terminal.  
-The purpose of this repository is to build strong foundations for a career in Data Analytics and Data Science.
+## Overview
+This repository documents my hands-on learning and practice as an **aspiring Data Analyst**, using **Python and SQL** to work with real-world style sales data.
 
----
+The focus of this project is on:
+- Data cleaning and preprocessing
+- Writing SQL queries for analysis
+- Integrating SQL with Python
+- Calculating and automating business KPIs
 
-## Project Files
-
-day1_basics.py  
-- Python basics: variables, conditions, loops, functions
-
-day2_python_core.py  
-- Core Python concepts and practice programs
-
-day3_numpy.py  
-- NumPy arrays, vector operations, broadcasting
-
-day4_pandas_practice.py  
-- Data loading, cleaning, filtering, grouping, feature engineering
-
-day5_normalization.py  
-- Data preprocessing:
-  - MinMaxScaler
-  - StandardScaler
-  - OneHotEncoder
-  - Label Encoding
-
-cleaned_sales_data.csv  
-- Sample dataset used for data analysis and preprocessing
+All work follows an entry-level, industry-relevant data analytics workflow.
 
 ---
 
 ## Tools & Technologies
-
-- Python
+- Python (Pandas, NumPy)
+- SQL (MySQL)
+- MySQL Connector for Python
 - VS Code
-- VS Code Terminal
-- Pandas
-- NumPy
-- Scikit-Learn
-- GitHub Desktop
-- CSV datasets
+- Git & GitHub
 
 ---
 
-## Skills Demonstrated
+## Repository Structure & File Explanation
 
-- Writing and executing Python programs
-- Reading and writing CSV files
-- Data cleaning (missing values, duplicates, data types)
-- Feature engineering (new columns, transformations)
-- Data normalization and scaling
-- Categorical encoding techniques
-- Debugging and error handling
-- Basic data analysis workflows
-- Version control using GitHub
-
----
-
-## How to Run the Code
-
-1. Install Python (version 3.x)
-2. Install required libraries:
-
-pip install pandas numpy scikit-learn
-
-3. Open project folder in VS Code
-4. Run any file using terminal:
-
-python filename.py
-
-Example:
-python day5_normalization.py
+### Python Fundamentals & Data Processing
+| File | Description |
+|----|----|
+| `day1_basics.py` | Python basics: variables, data types, conditions, loops |
+| `day2_python_core.py` | Functions, lists, dictionaries, basic logic building |
+| `day3_numpy.py` | NumPy arrays, mathematical operations, basic statistics |
+| `day4_pandas_practice.py` | Pandas DataFrame operations, filtering, sorting |
+| `day5_normalization.py` | Data preprocessing: MinMaxScaler, StandardScaler, encoding |
 
 ---
 
-## Learning Goal
+### SQL & Database Work
+| File | Description |
+|----|----|
+| `day8_sql_with_python.py` | Executing SQL queries using Python |
+| `day9_sql_joins.sql` | SQL joins (INNER, LEFT, RIGHT) |
+| `day10_sql_aggregations.sql` | Aggregations: SUM, AVG, COUNT, GROUP BY |
 
-To become a professional Data Scientist specializing in Finance and Manufacturing domains, with strong foundations in data analysis, preprocessing, and machine learning.
+---
+
+### SQL + Python Integration (ETL & Automation)
+| File | Description |
+|----|----|
+| `day12_sql_python_pipeline.py` | SQL + Python pipeline (Extract, Transform, Load) |
+| `day13_kpi_automation.py` | Automated KPI calculation using Python |
+
+---
+
+### Dataset Files
+| File | Description |
+|----|----|
+| `sales_data.csv` | Raw sales dataset |
+| `cleaned_sales_data.csv` | Cleaned and processed sales data |
+
+---
+
+## Key Skills Demonstrated
+- Data cleaning and preprocessing
+- SQL queries (SELECT, INSERT, UPDATE, JOIN)
+- SQL aggregations and grouping
+- KPI calculation (Revenue, Profit, Profit Margin)
+- SQL–Python integration
+- Basic ETL workflow (Extract → Transform → Load)
+- Business-focused data analysis
+
+---
+
+## Project Highlight: Sales KPI Automation
+- Extracted sales data from MySQL using SQL
+- Cleaned and transformed data using Pandas
+- Calculated business KPIs such as:
+  - Total Revenue
+  - Total Profit
+  - Profit Margin
+- Automated KPI reporting using Python scripts
+
+---
+
+## Learning Objective
+To build a strong foundation in Data Analysis by combining SQL and Python for data extraction, transformation, and business reporting.
+
+---
+
+## Current Status
+- Python fundamentals completed
+- Pandas and NumPy completed
+- SQL joins and aggregations completed
+- SQL–Python integration completed
+- KPI automation completed
+- Continuing with advanced SQL analytics projects
 
 ---
 
 ## Author
-
-Prachi Patel  
-Aspiring Data Scientist  
+**Prachi Patel**
+**Aspiring Data Analyst**
+Skills: SQL | Python | Data Analysis | KPI Reporting
